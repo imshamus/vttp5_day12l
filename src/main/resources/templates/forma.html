@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" data-th-action="@{/weather/forma}"> <!--whats does @{ do? what is form? how to make? <label> is what? <br> is what? can omit the @{} apparently? maz -->
+        <label>City/Country</label>
+        <input type="text" name="city" placeholder="Enter city name..."> <!--city is your key, what user enter is the value-->
+        <br /><br />
+        <label>Temperature</label>
+        <input type="text" name="temperature" placeholder="Enter temperature..."> <!--temperature is your key, what user enter is the value-->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+<!--use postman to visualise key value-->
